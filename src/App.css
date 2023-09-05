@@ -1,4 +1,4 @@
-body{
+/* body{
   display: block;
   background-color: aqua;
 }
@@ -11,14 +11,14 @@ body{
 }
 
 .leftSide{
-flex-basis: 40%;
+flex-basis: 50%;
 background-color: blueviolet;
 display: flex;
 flex-direction: column;
 }
 
 .rightSide{
-  flex-basis: 60%;
+  flex-basis: 50%;
   background-color: red ;
   }
 
@@ -43,4 +43,4 @@ flex-direction: column;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+  } */
