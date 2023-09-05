@@ -19,3 +19,8 @@ background-color: blueviolet;
   flex-basis: 60%;
   background-color: red ;
   }
+
+  .leftSideHeader{
+    flex-basis: 20%;
+    background-color: azure;
+  }
