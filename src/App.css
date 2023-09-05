@@ -23,11 +23,11 @@ flex-direction: column;
   }
 
   .leftSideHeader{
-    flex-basis: 20%;
+    flex-basis: 5%;
     background-color: azure;
   }
 
   .vehicleFeaturesList{
-    flex-basis: 60%;
+    flex-basis: 80%;
     background-color: rgb(228, 45, 170);
   }
