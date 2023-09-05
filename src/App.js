@@ -5,7 +5,7 @@ function App() {
  return(
   <div className='main-container'>
     <div className='leftSide'>
-      <h2 className='leftSideHeader'>'Connectivity at every turn.'</h2>
+      <h1 className='leftSideHeader'>Connectivity at every turn.</h1>
     </div>
     <div className='rightSide'></div>
   </div>
