@@ -13,6 +13,8 @@ body{
 .leftSide{
 flex-basis: 40%;
 background-color: blueviolet;
+display: flex;
+flex-direction: column;
 }
 
 .rightSide{
@@ -23,4 +25,9 @@ background-color: blueviolet;
   .leftSideHeader{
     flex-basis: 20%;
     background-color: azure;
+  }
+
+  .vehicleFeaturesList{
+    flex-basis: 60%;
+    background-color: rgb(228, 45, 170);
   }
