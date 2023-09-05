@@ -7,6 +7,8 @@ function App() {
     <div className='leftSide'>
       <h1 className='leftSideHeader'>Connectivity at every turn.</h1>
       <div className='vehicleFeaturesList'></div>
+      <button className='button'>up</button>
+      <button className='button'>Down</button>
     </div>
     <div className='rightSide'></div>
   </div>
