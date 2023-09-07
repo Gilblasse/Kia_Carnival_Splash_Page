@@ -6,6 +6,7 @@ body{
 .main-container{
   width: 100vw;
   height: 95vh;
+  padding: 45px 80px 60px 45px;
   background-color: blue;
   display: flex;
 }
@@ -13,6 +14,7 @@ body{
 .leftSide{
 flex-basis: 50%;
 background-color: blueviolet;
+margin-bottom: 30px;
 display: flex;
 flex-direction: column;
 }
