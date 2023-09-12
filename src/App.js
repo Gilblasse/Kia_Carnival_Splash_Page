@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import Features from './components/Features';
 import featureDiscrip from './copy/feature';
+import FeatureImages from './components/FeatureImages';
 
 function App() {
  return(
@@ -19,7 +20,10 @@ function App() {
       <button className='button'>up</button>
       <button className='button'>Down</button>
     </div>
-    <div className='rightSide'></div>
+    <div className='rightSide'>
+      <FeatureImages/>
+      
+    </div>
   </div>
  )
 }
