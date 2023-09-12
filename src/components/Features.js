@@ -2,8 +2,10 @@ import React from 'react'
 
 export default function Features({title, discription}) {
   return (
-    <div>{title}</div>
-    <div>{discription}</div>
+    <div>
+      <h2>{title}</h2>
+      <div>{discription}</div>
+    </div>
   )
 }
 
