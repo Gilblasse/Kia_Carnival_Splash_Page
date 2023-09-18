@@ -1,19 +1,18 @@
 body{
   display: block;
-  background-color: aqua;
 }
 
 .main-container{
-  width: 100vw;
+  width: 88vw;
   height: 95vh;
-  padding: 45px 80px 60px 45px;
+  padding: 45px 75px 45px 116px;
   background-color: blue;
   display: flex;
 }
 
 .leftSide{
 flex-basis: 50%;
-background-color: blueviolet;
+background-color: white;
 margin-bottom: 10px;
 display: flex;
 flex-direction: column;
@@ -21,17 +20,15 @@ flex-direction: column;
 
 .rightSide{
   flex-basis: 50%;
-  background-color: red ;
   }
 
   .leftSideHeader{
     flex-basis: 5%;
-    background-color: azure;
   }
 
   .vehicleFeaturesList{
-    flex-basis: 80%;
-    background-color: rgb(228, 45, 170);
+    width: 60%;
+    padding-left: 50px;
   }
 
   .button {
@@ -55,4 +52,10 @@ flex-direction: column;
   img{
     height: 100%;
     width: 100%;
+  }
+
+  .item_discription{
+    font-size: 16px;
+    line-height: 24px;
+    font: Hel;
   }
