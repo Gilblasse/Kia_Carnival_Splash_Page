@@ -4,8 +4,11 @@ import './App.css';
 import Features from './components/Features';
 import featureDiscrip from './copy/feature';
 import FeatureImages from './components/FeatureImages';
+import FeatImag from './constants/images';
 
 function App() {
+  let y = Object.values(FeatImag)[0]
+
  return(
   <div className='main-container'>
     <div className='leftSide'>
@@ -17,11 +20,18 @@ function App() {
         <Features title="Connected Routing"  discription={featureDiscrip.feature4}/>
         <Features title="Wi-Fi Hotspot"  discription={featureDiscrip.feature5}/>
       </div>
-      <button className='button'>up</button>
-      <button className='button'>Down</button>
+
+      <button className='button'>
+         <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+       <button className='button'>
+         <i class="fa-solid fa-arrow-down"></i>
+      </button>
+
     </div>
     <div className='rightSide'>
-      <FeatureImages/>
+      <FeatureImages x={y}/>
       
     </div>
   </div>
@@ -29,3 +39,9 @@ function App() {
 }
 
 export default App;
+
+
+
+// active state for features
+// - opacity should be 1 while all others are 0
+// - picture should correspond with feature discription

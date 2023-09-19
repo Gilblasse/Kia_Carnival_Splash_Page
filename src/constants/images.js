@@ -1,7 +1,7 @@
 export default {
-    image1: '/images/Coming-Soon.png.png',
-    image2: "/images/imageComingSoon.jpg",
-    // image3: `Kia Connect connects with Google Assistant™ & Amazon Alexa so you can use voice commands for features like remote start and climate control.3`,
-    // image4: `The available navigation system uses real-time and historical traffic data, as well as weather and speed limit info to predict the quickest route between two points.4`,
-    // image5: `If equipped, stay connected on the go and enjoy movies, games, social media, and more with the available Wi-Fi hotspot.5`
+    image1: "images/kia_carnival_2024_mep_asset-list_remote-start-with-climate-control-v2_XL.jpg",
+    image2: "/images/kia_carnival_2024_mep_asset-list_find-my-car-v2_XL.jpg",
+    image3: "/images/kia_carnival_2024_mep_asset-list_voice-assistance-v2_XL.jpg",
+    image4: "/images/kia_carnival_2024_mep_asset-list_connected-routing-v2_XL.jpg",
+    image5: "/images/kia_carnival_2024_mep_asset-list_wifi-hotspot-v2_XL.jpg",
 }
