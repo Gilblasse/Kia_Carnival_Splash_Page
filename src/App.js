@@ -8,20 +8,38 @@ import FeatImag from './constants/images';
 
 
 function App() {
-  const [featState, changeState]=useState({
-    activeOject: null,
-    objects: [{a:1},{b:2},{c:3}]
+  // const [featState, changeState]=useState({
+  //   activeOject: null,
+  //   objects: [{a:1},{b:2},{c:3}]
     
-  })
+  // })
 
   const [activeKey,setActivekey] = useState('feature1')
   const [activeFeatureImage, setActiveFeatureImage] = useState({feature1: FeatImag.feature1})
+  const [currentActiveKey,setCurrentActiveKey] = useState(1)
 
   function toggleActive(num){
     const newKey = `feature${num}`
     setActivekey(newKey)
     setActiveFeatureImage({[newKey]: FeatImag[newKey]})
+    setCurrentActiveKey(num)
   }
+
+  const upFeature = () => {
+    const newActiveKey = currentActiveKey === 1 ? 5 : currentActiveKey - 1 
+    toggleActive(newActiveKey)
+  }
+
+  const downFeature = () => {
+    const newActiveKey = currentActiveKey === 5 ? 1 : currentActiveKey + 1 
+    toggleActive(newActiveKey)
+  }
+//[] move to prior index
+// setActiveKEy
+// SetActiveFeatImg
+
+
+
   // onClick={() => {toggleActive()}}
  return(
   <div className='main-container'>
@@ -35,12 +53,20 @@ function App() {
         <Features title="Wi-Fi Hotspot"  discription={featureDiscrip.feature5}  active={activeFeatureImage?.feature5}  onClick={() => toggleActive(5)}/>
       </div>
 
-      <button className='button'>
-        <i class="bi bi-arrow-up-circle-fill"></i>
-      </button>
+      <div className='navigation_bar'>
+        <button className='button' onClick={upFeature}>
+          <img src="images/up-arrow.png" alt="up icon" className='up_arrow'/>
+        </button>
 
-       <button className='button'>
-      </button>
+        <button className='button' onClick={downFeature}>
+          <img src="images/down-arrow.png" alt="up icon" className='arrows'/>
+        </button>
+
+        <div className='progress_container'>
+
+        </div>
+
+      </div>
 
     </div>
     <div className='rightSide'>
