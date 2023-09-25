@@ -1,10 +1,10 @@
 import React from 'react'
-import images from '../constants/images'
 
-export default function FeatureImages({x}) {
+export default function FeatureImages({srcImg}) {
+  console.log({ srcImg })
   return (
    <div className='img_container'>
-        <img src={images[x]} alt=""/>
+        <img src={srcImg} alt="feature image"/>
    </div>
   )
 }
