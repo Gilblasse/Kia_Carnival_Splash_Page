@@ -54,16 +54,18 @@ function App() {
       </div>
 
       <div className='navigation_bar'>
-        <button className='button' onClick={upFeature}>
-          <img src="images/up-arrow.png" alt="up icon" className='up_arrow'/>
-        </button>
+        <div>
+          <button className='button' onClick={upFeature}>
+            <img src="images/up-arrow.png" alt="up icon" className='up_arrow'/>
+          </button>
 
-        <button className='button' onClick={downFeature}>
-          <img src="images/down-arrow.png" alt="up icon" className='arrows'/>
-        </button>
-
+          <button className='button' onClick={downFeature}>
+            <img src="images/down-arrow.png" alt="up icon" className='arrows'/>
+          </button>
+        </div>
+        
         <div className='progress_container'>
-
+            {currentActiveKey}/5
         </div>
 
       </div>
