@@ -16,6 +16,7 @@ background-color: white;
 margin-bottom: 10px;
 display: flex;
 flex-direction: column;
+color: #555;
 }
 
 .rightSide{
@@ -51,6 +52,11 @@ flex-direction: column;
     margin: 4px 2px;
     cursor: pointer;
   }
+
+  .button:hover{
+    background-color: #555
+  }
+
 
   .img_container{
   height: 100%;
