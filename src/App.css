@@ -39,11 +39,9 @@ color: #555;
   }
 
   .button {
-    background-color: #4CAF50;
     border-radius: 50%;
     width: 30px;
-    height: 60px;
-    border: none;
+    height: 30px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -71,4 +69,8 @@ color: #555;
   .item_discription{
     font-size: 25px;
     line-height: 24px;
+  }
+
+  .up_arrow{
+    height: 80%;
   }
