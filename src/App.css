@@ -38,10 +38,15 @@ color: #555;
     display: none;
   }
 
+  .up_down{
+    display: flex;
+    flex-direction: column;
+  }
+
   .button {
     border-radius: 50%;
     width: 30px;
-    height: 30px;
+    height: 60px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -74,3 +79,27 @@ color: #555;
   .up_arrow{
     height: 80%;
   }
+
+  .navigation_bar{
+    display: flex;
+    height: 15px;
+  }
+
+  .progress_container{
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .progress_bar_container{
+    height: 100px;
+    width: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+
+  .progress_bar{
+    border-left: 3px solid;
+  }
+.bar_and_discription{
+  display: flex;
+}
